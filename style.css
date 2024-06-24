@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 60px;
-  margin: 0px 16px;
+  margin: 0px 1rem;
 }
 .logo {
   display: flex;
@@ -33,7 +33,7 @@ ul {
   display: flex;
 }
 .header-list li {
-  padding: 16px;
+  padding: 1rem;
   cursor: pointer;
 }
 /* NAVBAR */
@@ -49,8 +49,8 @@ ul {
   font-family: "Kenia", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 32px;
-  margin-left: 20px;
+  font-size: 2rem;
+  margin-left: 1.4rem;
 }
 .navbar img {
   width: 70px;
@@ -66,4 +66,51 @@ ul {
   text-align: center;
   align-items: center;
   font-weight: 600;
+}
+/* MAİN */
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main-bar {
+  width: 300px;
+  min-width: 10%;
+  max-height: 350px;
+  background-color: white;
+  flex-direction: column;
+  padding: 1.4rem;
+  margin: 1rem;
+  box-shadow: 2px 2px 10px black;
+}
+.main-bar li {
+  padding: 16px;
+  cursor: pointer;
+}
+.main-bar li:hover {
+  background-color: #99b7c07a;
+  border-radius: 10px;
+}
+.top {
+  display: flex;
+}
+.main-part {
+  box-shadow: 2px 2px 10px black;
+  margin: 1rem;
+  max-width: 900px;
+}
+.paticipants {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-part {
+  display: flex;
+  width: 250px;
+  height: 110px;
+  padding: 1rem;
+}
+.img-part img {
+  width: 75px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid black;
 }
