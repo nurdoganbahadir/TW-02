@@ -45,6 +45,13 @@ ul {
   align-items: center;
   height: 70px;
 }
+.navbar p {
+  font-family: "Kenia", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  margin-left: 20px;
+}
 .navbar img {
   width: 70px;
   height: 70px;
